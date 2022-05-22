@@ -84,7 +84,6 @@ header {
 }
 
 .text {
-  font-weight: 400;
   font-size: 14px;
   line-height: 24px;
   color: #757575;
@@ -113,7 +112,7 @@ header {
   color: rgba(117, 117, 117, 1);
   font-size: 16px;
   line-height: 19px;
-  font-weight: 400;
+
   margin-top: 10px;
 }
 .footer-size {
@@ -124,10 +123,9 @@ header {
 .footer-style {
   position: absolute;
   padding-left: 215px;
-
   padding-top: 60px;
+  text-decoration: none;
 }
-
 .logo {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
@@ -137,7 +135,6 @@ header {
 }
 .logo-item {
   font-family: "Oleo Script", sans-serif;
-  font-weight: 400;
   font-size: 26px;
   line-height: 31px;
   color: #ffffff;
@@ -145,49 +142,34 @@ header {
 
 .logo-header {
   font-family: "Oleo Script", sans-serif;
-  font-weight: 400;
   font-size: 26px;
   line-height: 31px;
   color: black;
 }
 
 address {
-  font-style: normal;
-  font-weight: 400;
   font-size: 14px;
   line-height: 24px;
   color: #ffffff;
   padding-top: 20px;
 }
 .contacts {
-  text-decoration: none;
-  font-weight: 400;
   font-size: 14px;
   line-height: 24px;
   color: rgba(255, 255, 255, 0.6);
-  padding-top: 9px;
 }
-
+.contacts-portfolio {
+  font-size: 14px;
+  line-height: 24px;
+  color: rgba(255, 255, 255, 0.6);
+}
 .menu {
   font-weight: 500;
   font-size: 16px;
   line-height: 26px;
   padding-top: 100px;
-  text-align: center;
 }
 
-.buttons {
-  border: none;
-  background: #f5f4fa;
-  border-radius: 4px;
-  color: #212121;
-  padding: 6px 20px;
-  width: 121px;
-  height: 38px;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 26px;
-}
 .buttons:focus,
 .buttons:hover {
   background-color: #2196f3;
