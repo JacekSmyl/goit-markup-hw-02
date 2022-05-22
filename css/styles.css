@@ -7,7 +7,7 @@ body {
   font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 14px;
-  line-height: 16px;
+  line-height: 1.14;
 }
 .header-size {
   width: 1600px;
@@ -54,7 +54,7 @@ header {
   font-style: normal;
   font-weight: 900;
   font-size: 44px;
-  line-height: 60px;
+  line-height: 1.36;
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
@@ -67,7 +67,7 @@ header {
 .button {
   font-family: Roboto;
   font-size: 16px;
-  line-height: 30px;
+  line-height: 1.875;
   background-color: rgba(33, 150, 243, 1);
   color: rgba(255, 255, 255, 1);
   height: 50px;
@@ -79,15 +79,17 @@ header {
 .title-text-item {
   font-weight: 700;
   font-size: 14px;
-  line-height: 16px;
+  line-height: 1.14;
   color: #212121;
 }
 
 .text {
   font-size: 14px;
-  line-height: 24px;
+  line-height: 1.714;
   color: #757575;
 }
+
+
 .team {
   background: #f5f4fa;
   width: 1600px;
@@ -96,24 +98,24 @@ header {
   font-family: Roboto;
   font-size: 36px;
   font-weight: 700;
-  line-height: 42px;
+  line-height: 1.16;
   letter-spacing: 0.03em;
   color: rgba(33, 33, 33, 1);
 }
 
 .name {
-  font-size: 16px;
-  line-height: 19px;
-  color: rgba(33, 33, 33, 1);
   font-weight: 500;
+  font-size: 16px;
+  line-height: 1.187;
+  color: rgba(33, 33, 33, 1);
   margin-top: 30px;
 }
 .position {
   color: rgba(117, 117, 117, 1);
   font-size: 16px;
-  line-height: 19px;
-
+  line-height: 1.187;
   margin-top: 10px;
+  
 }
 .footer-size {
   width: 1600px;
@@ -130,43 +132,45 @@ header {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 26px;
-  line-height: 31px;
+  line-height: 1.192;
   color: #2196f3;
 }
 .logo-item {
   font-family: "Oleo Script", sans-serif;
   font-size: 26px;
-  line-height: 31px;
+  line-height: 1.192;
   color: #ffffff;
 }
 
 .logo-header {
   font-family: "Oleo Script", sans-serif;
   font-size: 26px;
-  line-height: 31px;
+  line-height: 1.38;
   color: black;
 }
 
 address {
   font-size: 14px;
-  line-height: 24px;
+  line-height: 1.724;
   color: #ffffff;
   padding-top: 20px;
+  font-style: normal;
 }
 .contacts {
   font-size: 14px;
-  line-height: 24px;
+  line-height: 1.724;
   color: rgba(255, 255, 255, 0.6);
+  text-decoration: none;
 }
 .contacts-portfolio {
   font-size: 14px;
-  line-height: 24px;
+  line-height: 1.724;
   color: rgba(255, 255, 255, 0.6);
 }
 .menu {
   font-weight: 500;
   font-size: 16px;
-  line-height: 26px;
+  line-height: 1.625;
   padding-top: 100px;
 }
 
@@ -180,7 +184,7 @@ address {
 .description {
   font-weight: 700;
   font-size: 18px;
-  line-height: 36px;
+  line-height: 2;
   width: 322px;
   height: 36px;
   color: #212121;
@@ -189,6 +193,7 @@ address {
 .description-item {
   font-weight: 400;
   font-size: 16px;
+  line-height: 1.625;
   width: 322px;
   height: 30px;
   color: #757575;
