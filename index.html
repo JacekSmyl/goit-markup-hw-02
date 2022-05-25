@@ -4,6 +4,10 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css"
+    />
     <link rel="stylesheet" href="css/styles.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -15,17 +19,21 @@
   </head>
   <body>
     <header>
-      <a class="link" href="https://jaceksmyl.github.io/goit-markup-hw-01/"><span class="logo">Web</span><span class="logo-header">Studio</span></a>
+      <a class="link" href="https://jaceksmyl.github.io/goit-markup-hw-01/"
+        ><span class="logo">Web</span><span class="logo-header">Studio</span></a
+      >
       <nav class="nav-style">
         <ul>
-          <li class="link ">Agencja</li>
+          <li><a class="link" href="index.html">Agencja</a></li>
           <li>
-            <a class="link" href="portfolio.html">Portfolio</a></li>
-          <li class="link"> Kontakt</li>
+            <a class="link" href="portfolio.html">Portfolio</a>
+          </li>
+          <li class="link">Kontakt</li>
         </ul>
-          <a class=" link-item" href="mailto:info@devstudio.com"
-            >info@devstudio.com</a>
-          <a class="link-item " href="tel:+48111111111">+48 111 111 111</a>
+        <a class="link-item" href="mailto:info@devstudio.com"
+          >info@devstudio.com</a
+        >
+        <a class="link-item" href="tel:+48111111111">+48 111 111 111</a>
       </nav>
     </header>
     <main>
@@ -33,7 +41,7 @@
         <h1 class="title-text">EFEKTYWNE ROZWIĄZANIA DLA WASZEGO BIZNESU</h1>
         <button class="button" type="button">Zamów usługe</button>
       </div>
-      <div class="columns">
+      <div >
         <ul>
           <li>
             <h3 class="title-text-item">LOREM IPSUM</h3>
@@ -65,10 +73,10 @@
           </li>
         </ul>
       </div>
-      <div >
+      <div class="size-box">
         <h2 class="title-secondary">Czym się zajmujemy</h2>
         <ul>
-          <li>
+          <li class="boxes">
             <img
               src="images/pc.jpg"
               alt=" ktoś pisze na klawiaturze komutera"
@@ -76,7 +84,7 @@
               height="294"
             />
           </li>
-          <li>
+          <li class="boxes">
             <img
               src="images/phone.jpg"
               alt="telefon trzymany w ręce na tle laptopa "
@@ -84,7 +92,7 @@
               height="294"
             />
           </li>
-          <li>
+          <li class="boxes">
             <img
               src="images/tablet.jpg"
               alt="Ktoś trzyma tablet na tale laptopa"
@@ -96,8 +104,8 @@
       </div>
       <div class="team">
         <h2 class="title-secondary">Nasz zespół</h2>
-        <ul>
-          <li>
+        <ul >
+          <li class=" boxes box">
             <img
               src="images/man1.jpg"
               alt="Jakiś mężczyzna na zdjęciu"
@@ -107,7 +115,7 @@
             <h3 class="name">John Doe</h3>
             <p class="position">Product Designer</p>
           </li>
-          <li>
+          <li class=" boxes box" >
             <img
               src="images/woman.jpg"
               alt="Jakaś kobieta na zdięciu"
@@ -117,7 +125,7 @@
             <h3 class="name">John Doe</h3>
             <p class="position">UI Designer</p>
           </li>
-          <li>
+          <li class=" boxes box">
             <img
               src="images/man3.jpg"
               alt="Jakiś mężczyzna na zdjęciu"
@@ -127,7 +135,7 @@
             <h3 class="name">John Doe</h3>
             <p class="position">Marketing</p>
           </li>
-          <li>
+          <li class=" boxes box">
             <img
               src="images/man2.jpg"
               alt="Jakiś mężczyzna na zdjęciu"
@@ -142,9 +150,12 @@
     </main>
     <footer class="footer-size">
       <div class="footer-style">
-        <a href="https://jaceksmyl.github.io/goit-markup-hw-01/"><span class="logo">Web</span><span class="logo-item">Studio</span></a>
+        <a class="footer-style-item" href="https://jaceksmyl.github.io/goit-markup-hw-01/"
+          ><span class="logo">Web</span><span class="logo-item">Studio</span></a
+        >
         <address>m. Warszawa, Aleje Jerozolimskie 21</address>
-        <a class="contacts" href="mailto:info@example.com">info@example.com</a><br>
+        <a class="contacts" href="mailto:info@example.com">info@example.com</a
+        ><br />
         <a class="contacts" href="tel:+48111111111">+48 111 111 111</a>
       </div>
     </footer>

@@ -1,3 +1,8 @@
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
 body {
   font-family: "Roboto", "Raleway", sans-serif;
   color: #212121;
@@ -17,8 +22,8 @@ body {
 header {
   width: 1600px;
   height: 80px;
-  left: 0px;
-  top: 0px;
+border: 1px solid #ECECEC;
+  
 }
 
 .link {
@@ -50,31 +55,34 @@ header {
 }
 
 .title-text {
-  font-family: "Roboto";
-  font-style: normal;
+  
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
-  text-align: center;
+  
   letter-spacing: 0.06em;
   text-transform: uppercase;
   width: 696px;
-  height: 120px;
+
   margin-left: 452px;
   padding-top: 200px;
 }
 
 .button {
-  font-family: Roboto;
-  font-size: 16px;
+  margin-top: 30px;
   line-height: 1.875;
   background-color: rgba(33, 150, 243, 1);
   color: rgba(255, 255, 255, 1);
-  height: 50px;
-  width: 200px;
   border-radius: 4px;
   font-weight: 700;
+  
+  padding: 10px 41px;
+  border: 0px;
 }
+.button:hover{
+  cursor: pointer;
+}
+ 
 
 .title-text-item {
   font-weight: 700;
@@ -89,7 +97,6 @@ header {
   color: #757575;
 }
 
-
 .team {
   background: #f5f4fa;
   width: 1600px;
@@ -101,6 +108,7 @@ header {
   line-height: 1.16;
   letter-spacing: 0.03em;
   color: rgba(33, 33, 33, 1);
+  text-align: center;
 }
 
 .name {
@@ -115,7 +123,7 @@ header {
   font-size: 16px;
   line-height: 1.187;
   margin-top: 10px;
-  
+ padding-bottom: 30px;
 }
 .footer-size {
   width: 1600px;
@@ -126,14 +134,18 @@ header {
   position: absolute;
   padding-left: 215px;
   padding-top: 60px;
-  text-decoration: none;
-}
+  ;}
+  .footer-style-item{
+    text-decoration: none;
+  }
+
 .logo {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 26px;
   line-height: 1.192;
   color: #2196f3;
+  
 }
 .logo-item {
   font-family: "Oleo Script", sans-serif;
@@ -168,12 +180,25 @@ address {
   color: rgba(255, 255, 255, 0.6);
 }
 .menu {
+  
   font-weight: 500;
   font-size: 16px;
   line-height: 1.625;
   padding-top: 100px;
 }
-
+.buttons{
+  padding:6px 22px ;
+  border-style: none;
+  border-radius: 4px;
+  background: #F5F4FA;
+  font-family: 'Roboto';
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  
+  
+  
+}
 .buttons:focus,
 .buttons:hover {
   background-color: #2196f3;
@@ -198,3 +223,22 @@ address {
   height: 30px;
   color: #757575;
 }
+.box {
+  box-sizing: content-box;
+  border-radius: 0px 0px 4px 4px;
+  width: 270px;
+  text-align: center;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  
+ 
+}
+.size-box{
+  width: 1600px;}
+.boxes{
+  box-sizing: border-box;
+  display: inline-block;
+  margin:30px;
+
+}
+
