@@ -15,12 +15,10 @@ body {
   line-height: 1.14;
 }
 .header-size {
-  width: 1600px;
   height: 80px;
   position: absolute;
 }
 header {
-  width: 1600px;
   height: 80px;
 border: 1px solid #ECECEC;
   
@@ -49,23 +47,19 @@ border: 1px solid #ECECEC;
   background: #2f303a;
   color: #ffffff;
   height: 600px;
-  width: 1600px;
   margin-top: 80px;
   text-align: center;
 }
 
 .title-text {
-  
   font-weight: 900;
   font-size: 44px;
-  line-height: 1.36;
-  
+  line-height: 1.36; 
   letter-spacing: 0.06em;
   text-transform: uppercase;
   width: 696px;
-
-  margin-left: 452px;
   padding-top: 200px;
+  border: 0px;
 }
 
 .button {
@@ -75,31 +69,39 @@ border: 1px solid #ECECEC;
   color: rgba(255, 255, 255, 1);
   border-radius: 4px;
   font-weight: 700;
-  
   padding: 10px 41px;
   border: 0px;
+  
 }
 .button:hover{
   cursor: pointer;
 }
  
+.text-list{
+  box-sizing: border-box;
+  display: inline-block;
 
+
+}
 .title-text-item {
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
   color: #212121;
+  width: 270px;
+  
 }
 
 .text {
   font-size: 14px;
   line-height: 1.714;
   color: #757575;
+  width: 270px;
 }
 
 .team {
   background: #f5f4fa;
-  width: 1600px;
+
 }
 .title-secondary {
   font-family: Roboto;
@@ -126,7 +128,7 @@ border: 1px solid #ECECEC;
  padding-bottom: 30px;
 }
 .footer-size {
-  width: 1600px;
+  
   height: 252px;
   background: #2f303a;
 }
@@ -210,7 +212,10 @@ address {
   width: 322px;
   height: 36px;
   color: #212121;
+  padding-left: 24px;
 }
+
+
 
 .description-item {
   font-weight: 400;
@@ -219,6 +224,9 @@ address {
   width: 322px;
   height: 30px;
   color: #757575;
+  padding-left: 24px;
+  margin-top: 4px;
+  margin-bottom: 20px;
 }
 .box {
   box-sizing: content-box;
@@ -228,11 +236,14 @@ address {
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
 }
-.size-box{
-  width: 1600px;}
+
 .boxes{
   box-sizing: border-box;
   display: inline-block;
-  margin:30px;
+  border: 1px solid #EEEEEE;
+  
 }
+.container{ 
+  width: 1200px;
 
+}
